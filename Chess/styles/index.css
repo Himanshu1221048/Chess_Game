@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(48,46,43);
+}
+#root{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin : 65px auto;
+}
+.squareRow{
+    display: flex;
+}
+.white{
+    background-color: #eeeed2;
+}
+.black{
+    background-color: #769656;
+}
+.square{
+    width:75px;
+    height: 75px;
+}
+
+.highlightYellow{
+    background-color: #F7F769;
+}
+
+.piece{
+    width:100%;
+    cursor: pointer;
+}
+
+.highlight{
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.17);
+}
